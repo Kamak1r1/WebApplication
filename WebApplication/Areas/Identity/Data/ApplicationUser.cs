@@ -14,5 +14,11 @@ namespace WebApplication.Areas.Identity.Data
         public string FirstName { get; set; }
         [PersonalData]
         public string LastName { get; set; }
+        
+        [PersonalData]
+        public DateTime CreateDate { get; set; }
+
+        [PersonalData]
+        public DateTime LastLoginDate { get; set; }
     }
 }
